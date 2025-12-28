@@ -5,7 +5,7 @@ A full-stack task management application built for the Junior Software Engineer 
 The application follows a professional **N-Layer Architecture** to ensure scalability, maintainability, and separation of concerns.
 
 ## 🚀 Live Demo
-**[PASTE YOUR RENDER LINK HERE]**
+**[View Live App](https://task-manager-frontend-etp0.onrender.com)**
 
 > **⚠️ Note on Deployment:**
 > The live demo is hosted on Render's free tier using SQLite. Please note that data may reset when the instance restarts due to the ephemeral file system. In a real production environment, I would connect this to a managed PostgreSQL database.
@@ -60,7 +60,12 @@ I implemented a modular **N-Layer Architecture** on the backend to separate busi
 
 ## 🔧 Setup & Installation
 
-### Option 1: Quick Start (Docker) 🐳
-If you have Docker installed, you can run the entire stack with one command:
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Docker (optional, for containerized setup)
+
+### 1. Clone the Repository
 ```bash
-docker-compose up --build
+git clone [https://github.com/omarsamehelsheikh/task_manager_assessment.git](https://github.com/omarsamehelsheikh/task_manager_assessment.git)
+cd task_manager_assessment
